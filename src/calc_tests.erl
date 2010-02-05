@@ -18,13 +18,13 @@ sub_test_() ->
     ?_assertEqual(3, calc:sub([5,1,1]))
   ].
 
-mul_test_() ->
+multiply_test_() ->
   [
-    ?_assertEqual(1, calc:mul([1,1])),
-    ?_assertEqual(2, calc:mul([2,1])),
-    ?_assertEqual(5, calc:mul([5,1])),
-    ?_assertEqual(10,calc:mul([5,2])),
-    ?_assertEqual(20,calc:mul([5,2,2]))
+    ?_assertEqual(1, calc:multiply([1,1])),
+    ?_assertEqual(2, calc:multiply([2,1])),
+    ?_assertEqual(5, calc:multiply([5,1])),
+    ?_assertEqual(10,calc:multiply([5,2])),
+    ?_assertEqual(20,calc:multiply([5,2,2]))
   ].
 
 divide_test_() ->
